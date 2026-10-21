@@ -1,12 +1,15 @@
 # myrtopapadaki.github.io
 
 ---
-byte0: Χρησιμοποιώντας ls, εμφάνισα τους υπάρχοντες φακέλους και στη συνέχεια με cd τους άνοιξα, έως ότου έφτασα στο κλειδί που αναζητούσα.
+byte0: Χρησιμοποιώντας **ls**, εμφάνισα τους υπάρχοντες φακέλους και στη συνέχεια με **cd** τους άνοιξα, έως ότου έφτασα στο κλειδί που αναζητούσα.
 
 ---
 
-byte1: Με man supercalifragilisticexpialidocious, βρήκα τη λειτουργία της εντολής supercalifragilisticexpialidocious.
+byte1: Με **man supercalifragilisticexpialidocious**, βρήκα τη λειτουργία της εντολής supercalifragilisticexpialidocious.
 
 ---
 
-byte2: Βρήκα το κρυφό κείμενο με: grep "will find" shakespeare.txt.
+byte2: Βρήκα το κρυφό κείμενο με: **grep "will find" shakespeare.txt**.
+
+---
+byte3: Βρήκα την κρυφή λέξη εκτελώντας την εντολή **diff  shakespeare.modified.txt  shakespeare.txt**, που συγκρίνει τα δύο αρχεία και δείχνει τις αλλαγές.
