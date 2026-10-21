@@ -12,4 +12,9 @@ byte1: Με **man supercalifragilisticexpialidocious**, βρήκα τη λειτ
 byte2: Βρήκα το κρυφό κείμενο με: **grep "will find" shakespeare.txt**.
 
 ---
+
 byte3: Βρήκα την κρυφή λέξη εκτελώντας την εντολή **diff  shakespeare.modified.txt  shakespeare.txt**, που συγκρίνει τα δύο αρχεία και δείχνει τις αλλαγές.
+
+---
+
+byte4: Αφού άνοιξα τον φάκελο maze, έκανα **find -name cup.txt**. Ακολούθησα τη διεύθυνση του αρχείου και με **cat**, εμφάνισα το περιεχόμενό του.
