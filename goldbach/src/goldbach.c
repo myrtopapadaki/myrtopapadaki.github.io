@@ -67,7 +67,7 @@ int main() {
 
         if (choice != 'p' && choice != 'g') {
             printf("Invalid choice: expected 'p' or 'g'.\n");
-            continue;
+            return 1;
         }
         else {
             if (choice == 'p') {
