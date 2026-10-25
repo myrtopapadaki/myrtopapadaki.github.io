@@ -46,12 +46,20 @@ int main() {
 
     long long number, isprime;
     char choice;
+    int scanresult;
 
     while(1) {
         
         printf("PLease give me a number, between 0 and 10000000000:\n");
         
-        if (scanf("%lld", &number) != 1) {
+        scanresult = scanf("%lld", &number);
+
+        if (scanresult == EOF) {
+            printf("EOF detected, exiting.\n");
+            return 0;
+        }
+
+        if (scanresult != 1) {
             printf("Invalid input: expected an integer.\n");
             return 1;
         }
@@ -63,7 +71,11 @@ int main() {
         }
             
         printf("Now, choose how to test ('p' for prime, 'g' for goldbach):\n");
-        scanf(" %c", &choice);
+        
+        if (scanf(" %c", &choice) == EOF) {
+            printf("EOF detected, exiting.\n");
+            return 0;
+        }
 
         if (choice != 'p' && choice != 'g') {
             printf("Invalid choice: expected 'p' or 'g'.\n");
